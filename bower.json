@@ -1,0 +1,30 @@
+{
+  "name": "ang-gul",
+  "description": "",
+  "main": "gulpfile.js",
+  "authors": [
+    "ramakrishna65 <ramakrishna.j@sonata-software.com>"
+  ],
+  "license": "ISC",
+  "moduleType": [
+    "node"
+  ],
+  "homepage": "index.html",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "app/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.0",
+    "angular-animate": "^1.5.0",
+    "jquery": "^2.2.1",
+    "animate.css": "^3.5.1",
+    "bootstrap": "^3.3.6",
+    "font-awesome": "fontawesome#^4.5.0",
+    "angular-material": "^1.0.5",
+    "angular-ui-router": "^0.2.18"
+  }
+}
