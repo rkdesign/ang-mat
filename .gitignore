@@ -1,0 +1,32 @@
+node_modules
+app/bower_components
+.sass-cache
+dist
+.tmp
+.editorconfig
+
+#OS specific cache and config
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+*.cab
+*.msi
+*.msm
+*.msp
+$RECYCLE.BIN/
+.DS_Store
+.AppleDouble
+.LSOverride
+.Spotlight-V100
+.Trashes
+._*
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+.idea
+.idea/
+
+
+/.project
