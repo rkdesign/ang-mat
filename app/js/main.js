@@ -1,8 +1,10 @@
 var app = angular.module('ang-material', [       
     'ui.router' ,
     'Authentication'  ,
+   
     'ngMaterial',
-    'ngAria'
+    'ngAria',
+    'datepickerCtrl',
      
 ]);
 
@@ -29,7 +31,22 @@ app
             templateUrl: 'defaultViews/footer.html' 
           }
         }
-      })
+      }).state('datepick', {
+          url: '/datepick',
+          views: {
+            'header': { 
+              templateUrl: 'defaultViews/header.html'           
+            },
+            'content': {
+              controller: 'MainCtrl',
+              templateUrl: 'dynamicViews/datepick.html'
+            },
+            'footer': {            
+              templateUrl: 'defaultViews/footer.html' 
+            }
+          }
+        })
+      
     }
   ])
 .run(function ($rootScope, $state) {
